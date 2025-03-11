@@ -204,8 +204,8 @@ export const calculateDamage = (
 export const determineFirstAttacker = (
   playerPokemon: Pokemon,
   botPokemon: Pokemon,
-  playerMove: PokemonMove,
-  botMove: PokemonMove
+  // playerMove: PokemonMove,
+  // botMove: PokemonMove
 ): "player" | "bot" => {
   // Priority moves always go first (not implemented in this version)
 
